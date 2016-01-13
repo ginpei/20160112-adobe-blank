@@ -3,7 +3,7 @@
 		var elStatus = document.querySelector('.js-status');
 		elStatus.textContent = 'Loading...';
 
-		check({
+		checkFontLoaded({
 			fontName: 'Source Code Pro',
 			onload: function() {
 				elStatus.textContent = 'Loaded.';
@@ -14,7 +14,7 @@
 	// ----------------------------------------------------------------
 	// Checker
 
-	function check(options) {
+	function checkFontLoaded(options) {
 		var checker = new Checker(options);
 		checker.start();
 		return checker;
