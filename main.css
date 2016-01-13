@@ -1,0 +1,17 @@
+@font-face{
+    font-family: 'Source Code Pro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src:
+			url('./getter.php?fontName=SourceCodePro-Regular.eot') format('embedded-opentype'),
+			url('./getter.php?fontName=SourceCodePro-Regular.ttf.woff2') format('woff2');
+    /* src: url('./SourceCodePro-Regular.ttf.woff2') format('woff2'); */
+}
+
+pre {
+	background-color: #eee;
+	border: 1px solid #999;
+	font-family: 'Source Code Pro', serif;
+	padding: 1em;
+}
